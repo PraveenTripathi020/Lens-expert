@@ -15,11 +15,11 @@ st.markdown("""
     <style>
         /* Shrink sidebar width */
         [data-testid="stSidebar"] {
-            width: 220px;
+            width: 264px;
         }
 
         [data-testid="stSidebar"] > div:first-child {
-            width: 220px;
+            width: 264px;
         }
 
         /* Make body background light if needed */
