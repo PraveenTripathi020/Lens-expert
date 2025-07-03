@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import gmail
 
 spam_model=joblib.load("spam_classifier.pkl")
 language_model=joblib.load("lang_det.pkl")
@@ -147,7 +146,7 @@ with st.sidebar:
     st.markdown("## 👋 **Hello User, Welcome To**")
     st.markdown("###  **🤖 LENS eXpert Model**")
 
-st.sidebar.image("C:/Datasets2/Model.jpeg")
+st.sidebar.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Model.jpeg")
 
 with st.sidebar.expander("ℹ️ About Us"):
     st.write("""We are group of students trying to understand the concept of NLP Models
