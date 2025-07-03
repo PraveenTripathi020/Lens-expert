@@ -146,7 +146,7 @@ with st.sidebar:
     st.markdown("## 👋 **Hello User, Welcome To**")
     st.markdown("###  **🤖 LENS eXpert Model**")
 
-st.sidebar.image("C:/Datasets/Model.jpeg")
+st.sidebar.image("C:/Users/prave/Desktop/Gen AI/NLP Videos/NLP Project Programs/Model.jpeg")
 
 with st.sidebar.expander("ℹ️ About Us"):
     st.write("""We are group of students trying to understand the concept of NLP Models
