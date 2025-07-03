@@ -8,7 +8,7 @@ news_model=joblib.load("news_cat.pkl")
 review_model=joblib.load("review.pkl")
 
 # Page config
-st.set_page_config(page_title="LENS eXpert (NLP Suites)", layout="wide", page_icon="🤖")
+st.set_page_config(page_title="LENS eXpert (NLP Suites)", layout="wide", page_icon="🔍")
 
 # Custom CSS to shrink sidebar
 st.markdown("""
@@ -40,7 +40,7 @@ st.markdown("""
                 box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
                 margin-bottom: 20px; 
                 text-align: center;'>
-       🤖LENS eXpert (NLP Suites)
+       🔍LENS eXpert (NLP Suites)
     </div>
 """, unsafe_allow_html=True)
 
@@ -144,7 +144,7 @@ with tab4:
 # Sidebar
 with st.sidebar:
     st.markdown("## 👋 **Hello User, Welcome To**")
-    st.markdown("###  **🤖 LENS eXpert Model**")
+    st.markdown("###  **🔍LENS eXpert Model**")
 
 st.sidebar.image("Model.jpeg")
 
